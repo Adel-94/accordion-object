@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box; }
+
+.secondacc {
+  margin-top: 8%; }
+  .secondacc h2 {
+    left: 2%;
+    font-size: 50px;
+    position: relative; }
+  .secondacc h2::after {
+    bottom: -50%;
+    content: "";
+    left: 0%;
+    position: absolute;
+    width: 7%;
+    border-bottom: 3px solid #f57e57; }
+
+.myaccordion {
+  margin-top: 8%; }
+  .myaccordion .blueitem {
+    background: #18afd3;
+    padding: 1%;
+    margin-bottom: 10px; }
+  .myaccordion .secbody {
+    display: none; }
+    .myaccordion .secbody p {
+      font-family: 'Lato', sans-serif;
+      color: white;
+      margin-top: 4%; }
+  .myaccordion .sechead:hover {
+    cursor: pointer; }
+  .myaccordion .sechead h4 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-style: inherit;
+    font-weight: 600; }
+  .myaccordion .sechead i {
+    color: white;
+    font-size: 20px;
+    float: left;
+    margin-right: 18px; }
+
+/*# sourceMappingURL=accordion.css.map */
